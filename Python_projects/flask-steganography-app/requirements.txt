@@ -1,0 +1,3 @@
+Flask → For the web app
+Pillow → Image processing
+Stegano → Hiding and extracting text in images

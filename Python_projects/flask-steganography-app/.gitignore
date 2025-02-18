@@ -1,0 +1,43 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask-related ignores
+instance/
+*.sqlite3
+*.db
+*.log
+
+# Image and output files
+uploads/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.ico
+
+# Hidden system files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Git-related
+.git/
+uploads/
