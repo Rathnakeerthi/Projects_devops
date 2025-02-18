@@ -22,9 +22,7 @@ flask-steganography-app/
 Step 1: Install Required Libraries
 Run the following command:
 
-sh
-Copy
-Edit
+
 pip install flask pillow stegano
 Flask → For the web app
 Pillow → Image processing
@@ -33,5 +31,34 @@ Stegano → Hiding and extracting text in images
 to run the python application
 python app.py
 
-docker build -t steg-app:v1 .
-docker run -p 5000:5000 steg-app:v1
+___________________________________________________________________________________
+
+
+# update the apt repo on your machine
+  sudo apt update
+# Installation of  python3 and pip
+  sudo apt install python3
+  sudo apt install python3-pip
+# check the packages installed properly or not
+   python3 --version
+   pip --version
+# installation of  flask 
+    cd ~
+    mkdir myproject
+    cd myproject
+    sudo  apt install python3.12-venv
+    . .venv/bin/activate
+    pip install Flask
+    cd ~
+# installation of  stegano and libgl1
+
+    pip install stegano
+    sudo apt install libgl1
+# clone the repository
+     cd ~
+     git clone https://github.com/Rathnakeerthi/Projects_devops.git
+
+# Run the app 
+     cd Projects_devops/Python_projects/flask-steganography-app/
+     python app.py 
+
