@@ -137,7 +137,7 @@ upstream flasksteg {
     server 127.0.0.1:8000;
 }
 ```
-Add a proxy_pass to flaskhelloworld atlocation /
+Add a proxy_pass to flasksteg at location /
 ```bash
 location / {
     proxy_pass http://flasksetg;
